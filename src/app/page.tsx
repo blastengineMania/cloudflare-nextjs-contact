@@ -34,7 +34,7 @@ export default function Home() {
   const send = async (e: any) => {
     e.preventDefault();
     // Cloudflare Workerへ送信
-    const res = await fetch('/functions/blastengine', {
+    const res = await fetch('/functions/sendmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

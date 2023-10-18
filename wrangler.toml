@@ -1,0 +1,5 @@
+[[d1_databases]]
+binding = "DB"
+database_name = "be_customers"
+database_id = "3ae8b90a-e237-4530-96ed-d5be2006d6e6"
+preview_database_id = "DB"
